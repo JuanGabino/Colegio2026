@@ -176,12 +176,12 @@ $('#botonBuscar').on('click', '#btnBuscar', function(){
   				  		"<td style='font-size: 15px; font-family: 'Times New Roman', Georgia, Serif;'><center>"+curso+"</center></td>" +
   				  		'<td><center><select class="form-control" id="selectTarea" name="selectTarea">' +
 		  		   			'<option value="" selected disabled hidden>--Seleccionar--</option>' +
-		  		   			'<option value="Programación Curricular y Unidades">Programación Curricular y Unidades</option>'+
+		  		   			'<option value="Programacion Curricular y Unidades">Programacion Curricular y Unidades</option>'+
 		  		   			'<option value="Elaboracion de Sesiones de Aprendizaje">Elaboracion de Sesiones de Aprendizaje</option>'+
-		  		   			'<option value="Estrategia de Sistematizacón de Aprendizaje">Estrategia de Sistematizacón de Aprendizaje y Buenas Prácticas</option>'+		  		   			
-		  		   			'<option value="Mejoramiento del desempeño docente">Mejoramiento del desempeño docente</option>'+
-		  		   			'<option value="Elaboración de instrumentos de evaluación">Elaboración de instrumentos de evaluación</option>'+
-		  		   			'<option value="Aplicación eficiente del enfoque de resolución de problemas ">Aplicación eficiente del enfoque de resolución de problemas </option>'+
+		  		   			'<option value="Estrategia de Sistematizacion de Aprendizaje">Estrategia de Sistematizacion de Aprendizaje y Buenas Practicas</option>'+		  		   			
+		  		   			'<option value="Mejoramiento del desempeno docente">Mejoramiento del desempeno docente</option>'+
+		  		   			'<option value="Elaboracion de instrumentos de evaluacion">Elaboracion de instrumentos de evaluacion</option>'+
+		  		   			'<option value="Aplicacion eficiente del enfoque de resolucion de problemas ">Aplicacion eficiente del enfoque de resolucion de problemas </option>'+
 		  					'</select></center></td>' +
 				    "</tr>");
   				 

@@ -292,7 +292,7 @@ $('#divBuscarAlumnos').on('click', '#btnBuscar', function(){
 					{
 						$('#tbl_estudiante').append("<tr>" +
 	  				    		"<td style='font-size: 15px;'><center>"+j+"</center></td>" +
-	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='text' id='codigo' name='codigo'></center></td>" +
+	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='hidden' id='codigo' name='codigo'></center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+titulo+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+nivelacion+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+seccion+"</center></td>" +
@@ -309,7 +309,7 @@ $('#divBuscarAlumnos').on('click', '#btnBuscar', function(){
 						
 						$('#tbl_estudiante').append("<tr>" +
 	  				    		"<td style='font-size: 15px;'><center>"+j+"</center></td>" +
-	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='text' id='codigo' name='codigo'></center></td>" +
+	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='hidden' id='codigo' name='codigo'></center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+titulo+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+nivelacion+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+seccion+"</center></td>" +
@@ -413,7 +413,7 @@ function listar2()
 					{
 						$('#tbl_estudiante').append("<tr>" +
 	  				    		"<td style='font-size: 15px;'><center>"+j+"</center></td>" +
-	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='text' id='codigo' name='codigo'></center></td>" +
+	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='hidden' id='codigo' name='codigo'></center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+titulo+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+nivelacion+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+seccion+"</center></td>" +
@@ -430,7 +430,7 @@ function listar2()
 						
 						$('#tbl_estudiante').append("<tr>" +
 	  				    		"<td style='font-size: 15px;'><center>"+j+"</center></td>" +
-	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='text' id='codigo' name='codigo'></center></td>" +
+	  				    		"<td style='font-size: 15px;'><center>"+id+"<input type='text' id='hidden' name='codigo'></center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+titulo+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+nivelacion+"</center></td>" +
 		  				  		"<td style='font-size: 15px;'><center>"+seccion+"</center></td>" +
