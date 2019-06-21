@@ -42,7 +42,7 @@ public class ReporteCOM_PDF {
 				//IMAGEN DEL COLEGIO
 				Paragraph par1 = new Paragraph();
 				Paragraph par2 = new Paragraph();
-				Image imagenes = Image.getInstance("C:\\Insignia Colegio2026\\2026.jpg");
+				Image imagenes = Image.getInstance("https://i.ibb.co/qD03XVb/insignia-2026.jpg");
 				imagenes.setAlignment(Element.ALIGN_CENTER);
 				imagenes.scaleToFit(150,150);
 				documento.add(imagenes);

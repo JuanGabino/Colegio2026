@@ -42,7 +42,7 @@ public class ReporteNotas_EXCEL {
 			ResultSet rs = con.executeQuery(query);
 			System.out.println("Query " + query);
 
-			String rutaArchivo = System.getProperty("user.home") + "/Desktop/ReporteNotas.xls";		
+			String rutaArchivo = System.getProperty("user.home") + "\\"+ "ReporteNotas.xls";		
 			archivoXLS = new File(rutaArchivo);
 
 			System.out.println("Entró al try, la ruta es " + rutaArchivo);
