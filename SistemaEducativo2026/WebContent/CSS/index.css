@@ -1,0 +1,149 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.header{
+	text-align: center;
+	background: url(../Imagenes/colegio.jpg);
+	height: 600px;
+	background-size: 100% 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.encabezado {
+	
+	font-family: inherit;
+	font-size: 55px;
+	text-align: center;
+	margin-top: 100px;
+	color: #fff;
+}
+
+.cuerpo {
+	
+	font-family: inherit;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 120px;
+	color: #fff;
+}
+
+
+.header h3{
+	
+	font-family: cursive;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 90px;
+	color: #fff;
+	
+}
+
+.header h3 a{
+	
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo{
+	
+	float:left;
+	margin:10px;
+	opacity: 0.8;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+ 
+}
+
+#img1{
+	
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+    -webkit-filter: brightness(100%);
+    border-radius: 20px;
+    
+}
+
+#img1:hover{
+	-webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.atencion a{
+	text-decoration: none;
+}
+
+.atencion h2{
+	text-align: center;
+	color: #fff;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* footer */
+
+.footer-style {
+
+    background-color: #2C3E50;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 10px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+
+@media (max-width:700px) {
+	
+	.header{
+	
+		height: 500px;
+	}
+	
+	.encabezado {
+	
+		font-family: cursive;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 30px;
+		color: #fff;
+	}
+	.cuerpo {
+	
+		font-family: cursive;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 90px;
+		color: #fff;
+	}
+	
+}

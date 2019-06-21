@@ -1,0 +1,112 @@
+
+body{
+	
+	background: url(../Imagenes/fondo2.jpg) no-repeat;
+	/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+
+	background-position: center center;
+
+	/* Para que la imagen de fondo no se repita */
+
+	background-repeat: no-repeat;
+
+	/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+	background-attachment: fixed;
+
+	/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+	background-size: cover;
+	
+}
+
+#logo{
+	
+	margin-top: 100px;
+	margin:10px auto;
+	display:block;
+}
+
+#contenedor{
+	
+	background: #F9F7F7;
+	margin-left: 100px;
+	width: 460px;
+	margin-top: 150px;
+	opacity: 0.9;
+    -moz-opacity: 0.9;
+    filter: alpha(opacity=60);
+    -khtml-opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+ 
+}
+
+#form1{
+    width: 100%;
+	padding: 10px 20px 10px 20px;
+
+}
+
+#form1 input[type="text"],
+#form1 input[type="password"]{
+	
+	width: 90%;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+@media (max-width:680px) {
+
+
+	
+	#logo{
+	
+		margin-top: 100px;
+		margin:10px auto;
+		display:block;
+		width: 200px;
+		height: 180px;
+	}
+	
+	
+	#contenedor{
+	
+		background: #F9F7F7;
+		width: 360px;
+		height: 500px;
+		margin-top: 150px;
+		margin-left: 80px;
+		opacity: 0.9;
+    	-moz-opacity: 0.9;
+    	filter: alpha(opacity=60);
+    	-khtml-opacity: 0.7;
+    	border-radius: 10px 10px 10px 10px;
+    	-moz-border-radius: 10px 10px 10px 10px;
+    	-webkit-border-radius: 10px 10px 10px 10px;
+    	border: 0px solid #000000;
+ 
+	}
+	
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 0px) {
+	
+	#contenedor{
+		width: 330px;
+		margin-left: 0px;
+		height: 450px;	 
+	}
+	
+	#logo{
+	
+		padding-right: 10px;
+	}
+	
+}
+
